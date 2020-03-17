@@ -102,7 +102,7 @@ public class PasswordCracker {
      */
     public static void main(String... args) {
         if (args.length == 1) {
-            bruteForceWrap(args[0]);
+            bruteForceWrap(args[0].toUpperCase());
         }
     }
 
