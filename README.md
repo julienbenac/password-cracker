@@ -3,13 +3,13 @@ Password cracker is a CLI tool, which illustrates the concept of password cracki
 
 ## Usage
 ```
-$ java PasswordChecker <your_hash>
+$ java PasswordCracker <your_hash>
 ```
 To take full advantage of the tool, you must first know SHA-256 hash of any password, avoid exceeding 4 or 5 characters because the calculation time is exponential. At the end, the tool tells you the search time, and the password corresponding to the SHA-256 hash.
 
 ## Example
 ```
-$ java PasswordChecker 799ef92a11af918e3fb741df42934f3b568ed2d93ac1df74f1b8d41a27932a6f
+$ java PasswordCracker 799ef92a11af918e3fb741df42934f3b568ed2d93ac1df74f1b8d41a27932a6f
 a
 b
 c
