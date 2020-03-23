@@ -1,4 +1,4 @@
-# password-cracker
+# 🔑 password-cracker
 Password cracker is a CLI tool, which illustrates the concept of password cracking. This tool uses brute force attack, which consists of testing all possible combinations until you find a convincing result. It is by no means a tool for professional use.
 
 ## Usage
