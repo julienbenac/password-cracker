@@ -3,21 +3,52 @@ Password cracker is a CLI tool, which illustrates the concept of password cracki
 
 ## Usage
 ```
-$ java PasswordCracker <your_hash>
+$ java PasswordCracker <hash_function> <your_hash>
 ```
-To take full advantage of the tool, you must first know SHA-256 hash of any password, avoid exceeding 4 or 5 characters because the calculation time is exponential. At the end, the tool tells you the search time, and the password corresponding to the SHA-256 hash.
+To take full advantage of the tool, you must first know hash of any password, avoid exceeding 4 or 5 characters because the calculation time is exponential. At the end, the tool tells you the search time, and the password corresponding to the hash.
 
-## Example
+## Functions
+The tool is capable of cracking passwords using 13 cryptographic hash functions, you will find an exhaustive list of these below. You must know the hash function used initially for the search algorithm to find a possible solution.
+* MD2
+* MD5
+* SHA-1
+* SHA-224
+* SHA-256
+* SHA-384
+* SHA-512
+* SHA-512/224
+* SHA-512/256
+* SHA3-224
+* SHA3-256
+* SHA3-384
+* SHA3-512
+
+## Examples
 ```
-$ java PasswordCracker 799ef92a11af918e3fb741df42934f3b568ed2d93ac1df74f1b8d41a27932a6f
+$ java PasswordCracker MD5 527bd5b5d689e2c32ae974c6229ff785
 a
 b
 c
 d
 e
-f
 ...
-dn*
+johi
+johj
+johk
+johl
+johm
+Time to crack password : 62.182 seconds
+Password cracked : john
+```
+
+```
+$ java PasswordCracker SHA-256 799ef92a11af918e3fb741df42934f3b568ed2d93ac1df74f1b8d41a27932a6f
+a
+b
+c
+d
+e
+...
 dn%
 doa
 dob
