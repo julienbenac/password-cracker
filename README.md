@@ -7,21 +7,21 @@ $ java PasswordCracker <hash_function> <your_hash>
 ```
 To take full advantage of the tool, you must first know hash of any password, avoid exceeding 4 or 5 characters because the calculation time is exponential. At the end, the tool tells you the search time, and the password corresponding to the hash.
 
-## Functions
+### Available hash functions
 The tool is capable of cracking passwords using 13 cryptographic hash functions, you will find an exhaustive list of these below. You must know the hash function used initially for the search algorithm to find a possible solution.
-* MD2
-* MD5
-* SHA-1
-* SHA-224
-* SHA-256
-* SHA-384
-* SHA-512
-* SHA-512/224
-* SHA-512/256
-* SHA3-224
-* SHA3-256
-* SHA3-384
-* SHA3-512
+- [x] MD2
+- [x] MD5
+- [x] SHA-1
+- [x] SHA-224
+- [x] SHA-256
+- [x] SHA-384
+- [x] SHA-512
+- [x] SHA-512/224
+- [x] SHA-512/256
+- [x] SHA3-224
+- [x] SHA3-256
+- [x] SHA3-384
+- [x] SHA3-512
 
 ## Examples
 ```
