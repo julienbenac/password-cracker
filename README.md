@@ -2,7 +2,7 @@
 
 ![Top Language](https://img.shields.io/github/languages/top/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=5e81ac&logo=java)
 ![Code Size](https://img.shields.io/github/languages/code-size/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=ebcb8b&logo=github)
-![Licence](https://img.shields.io/github/license/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=a3be8c)
+![License](https://img.shields.io/github/license/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=a3be8c)
 
 Password cracker is a CLI tool, which illustrates the concept of password cracking. This tool uses brute force attack, which consists of testing all possible combinations until you find a convincing result. It is by no means a tool for professional use.
 
