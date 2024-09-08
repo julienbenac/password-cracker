@@ -1,13 +1,17 @@
-# 🔑 password-cracker
+# password-cracker
+
+<div align="center">
 
 ![Top Language](https://img.shields.io/github/languages/top/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=5e81ac&logo=java)
 ![Code Size](https://img.shields.io/github/languages/code-size/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=ebcb8b&logo=github)
 ![License](https://img.shields.io/github/license/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=a3be8c)
 
+</div>
+
 Password cracker is a CLI tool, which illustrates the concept of password cracking. This tool uses brute force attack, which consists of testing all possible combinations until you find a convincing result. It is by no means a tool for professional use.
 
 ## Usage
-```
+```sh
 $ java PasswordCracker <hash_function> <your_hash>
 ```
 To take full advantage of the tool, you must first know hash of any password, avoid exceeding 4 or 5 characters because the calculation time is exponential. At the end, the tool tells you the search time, and the password corresponding to the hash.
@@ -29,7 +33,8 @@ The tool is capable of cracking passwords using 13 cryptographic hash functions,
 - [x] SHA3-512
 
 ## Examples
-```
+```sh
+# Run brute force search using MD5 algorithm
 $ java PasswordCracker MD5 527bd5b5d689e2c32ae974c6229ff785
 a
 b
@@ -46,7 +51,8 @@ Time to crack password : 62.182 seconds
 Password cracked : john
 ```
 
-```
+```sh
+# Run brute force search using SHA-256 algorithm
 $ java PasswordCracker SHA-256 799ef92a11af918e3fb741df42934f3b568ed2d93ac1df74f1b8d41a27932a6f
 a
 b
