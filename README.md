@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Top Language](https://img.shields.io/github/languages/top/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=5e81ac&logo=java)
-![Code Size](https://img.shields.io/github/languages/code-size/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=ebcb8b&logo=github)
+![Top Language](https://img.shields.io/github/languages/top/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=5382a1&logo=openjdk&logoColor=white)
+![Code Size](https://img.shields.io/github/languages/code-size/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=ebcb8b&logo=github&logoColor=white)
 ![License](https://img.shields.io/github/license/julienbenac/password-cracker?style=for-the-badge&colorA=4c566a&colorB=a3be8c)
 
 </div>
