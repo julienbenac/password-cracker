@@ -1,4 +1,6 @@
-# password-cracker
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8867c60a-bf8c-464d-bb25-1e78f1d049d9" />
+</div>
 
 <div align="center">
 
